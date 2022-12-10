@@ -11,7 +11,7 @@ public class Main {
         List<Car> cars = Arrays.asList(
                 new Car(UUID.randomUUID(), GenerateCar.randomBrand(), 2017, 120000, 25000),
                 new Car(UUID.randomUUID(), GenerateCar.randomBrand(), 2015, 170000, 12800),
-                new Car(UUID.randomUUID(), GenerateCar.randomBrand(), 2015,320000, 8500),
+                new Car(UUID.randomUUID(), GenerateCar.randomBrand(), 2015, 320000, 8500),
                 new Car(UUID.randomUUID(), GenerateCar.randomBrand(), 2022, 5000, 31000),
                 new Car(UUID.randomUUID(), GenerateCar.randomBrand(), 2003, 339000, 4200)
         );
