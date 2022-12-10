@@ -22,7 +22,8 @@ public class Main {
         System.out.println("=======================================");
         System.out.println("Автомобіль із рандомним значенням полів: " + randomCar);
         System.out.println("=======================================");
-List<Car> onlyTeslaAudi = cars.stream()
+        
+        List<Car> onlyTeslaAudi = cars.stream()
                 .filter(car -> car.getBrand().equals(Car.Brand.TESLA) || car.getBrand().equals(Car.Brand.AUDI))
                 .collect(Collectors.toList());
         System.out.println("Тільки автомобілі Тесла і Ауді: " + onlyTeslaAudi);
