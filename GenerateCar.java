@@ -10,13 +10,19 @@ public class GenerateCar {
         return brand[randomIndex];
     }
     public static int randomYear() {
-        return new Random().nextInt(2022);
+        int minValue = 2003;
+        int maxValue = 2022;
+        return new Random().nextInt(maxValue - minValue + 1) + minValue;
     }
     public static int randomMileage() {
-        return new Random().nextInt(339000);
+        int minValue = 5000;
+        int maxValue = 339000;
+        return new Random().nextInt(maxValue - minValue + 1) + minValue;
     }
     public static int randomPrice() {
-        return new Random().nextInt(32000);
+        int minValue = 4200;
+        int maxValue = 31000;
+        return new Random().nextInt(maxValue - minValue + 1) + minValue;
     }
 }
 
